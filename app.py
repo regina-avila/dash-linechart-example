@@ -5,21 +5,27 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
+myheading = "Top U.S. Government Web Pages"
+mytitle = "People on a single, specific page"
+x_values = ['Now', '7 Days Ago', '30 Days Ago']
+y1_values = [13202, 14102, 10984]
+y2_values = [10831, 22891, 9892]
+y3_values = [5731, 6511, 8810]
+y4_values = [5275, 8314, 4328]
+y5_values = [2281, 9214, 5328]
 color1 = '#fc9403'
 color2 = '#0307fc'
 color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
-sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+color4 = '#32a852'
+color5 = '#d13b24'
+name1 = 'USPS.com® - USPS Tracking® Results'
+name2 = 'National Hurricane Center'
+name3 = 'NLM - PubMed Search Results'
+name4 = 'USAJOBS - Search'
+name5 = 'Atlantic 2-Day Graphical Tropical Weather Outlook'
+tabtitle = 'U.S. Website Visits'
+sourceurl = 'https://analytics.usa.gov/'
+githublink = 'https://github.com/regina-avila/dash-linechart-example/'
 
 ########### Set up the chart
 
