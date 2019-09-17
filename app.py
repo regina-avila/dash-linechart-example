@@ -51,9 +51,23 @@ trace2 = go.Scatter(
     marker = {'color': color3},
     name = name3
 )
+trace3 = go.Scatter(
+    x = x_values,
+    y = y4_values,
+    mode = 'lines',
+    marker = {'color': color4},
+    name = name4
+)
+trace4 = go.Scatter(
+    x = x_values,
+    y = y5_values,
+    mode = 'lines',
+    marker = {'color': color5},
+    name = name5
+)
 
 # assign traces to data
-data = [trace0, trace1, trace2]
+data = [trace0, trace1, trace2, trace3, trace4]
 layout = go.Layout(
     title = mytitle
 )
